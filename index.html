@@ -17,6 +17,8 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -51,7 +53,6 @@
         </nav>
         <a onclick="showContact()" class="btn-talk">Let's Talk</a>
     </header>
-    <!-- navbar ends -->
 
 
     <section class="home" id="home">
@@ -249,7 +250,8 @@
                     <input type="tel" placeholder="Phone Number" name="phone" id="phone" autocomplete="on" required>
                     <textarea placeholder="Message" name="message" id="message" required></textarea>
                     <button type="submit" id="sendIcon">Send Message</button>
-                    <button type="submit" id="loadingIcon" style="display: none;"><i class="fas fa-spinner fa-spin"></i>  Sending... </button>
+                    <button type="submit" id="loadingIcon" style="display: none;"><i class="fas fa-spinner fa-spin"></i>
+                        Sending... </button>
                     <div id="message-popup">
                         <span id="popup-message"></span>
                     </div>
