@@ -174,3 +174,24 @@ function submitForm() {
         document.getElementById('sendIcon').style.display = 'block';
     });
 }
+
+
+function infoReveal(elementId, clickedLink) {
+  const allRevealTexts = document.querySelectorAll('.revealImage');
+  allRevealTexts.forEach(text => {
+      text.style.display = "none";
+  });
+
+  const revealText = document.getElementById(elementId);
+  if (revealText) {
+      revealText.style.display = "flex";
+  }
+
+  const allLinks = document.querySelectorAll('.about-header a');
+  allLinks.forEach(link => {
+      link.classList.remove('active');
+  });
+  if (clickedLink) {
+      clickedLink.classList.add('active');
+  }
+};
