@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QRDY27C1G1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-QRDY27C1G1');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/47c7f38079.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <title>Alfred Malope</title>
+</head>
+
+<body>
+
+    <div class="scroll-up-btn">
+        <i class="bx bx-up-arrow-alt bx-sm"></i>
+    </div>
+
+    <header>
+        <a href="/" class="logo"><i class="fa-light fa-square-code"></i>Malose</a>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+        <a onclick="showContact()" class="btn-talk">Let's Talk</a>
+    </header>
+    <!-- navbar ends -->
+
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h2>Hi, My name <br />is Alfred<span> Malope</span></h2>
+
+            <p>I'm a <span>Web Developer</span></p>
+
+            <div class="btn-group">
+                <a onclick="showContact()">Hire Me</a>
+                <a href="#projects">See Projects</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/alfred-malope-9911531b5" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100008666409809" target="_blank"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/real_creca" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://github.com/alfred-malope" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+        </div>
+        <div class="image">
+            <img src="./assets/images/pngegg.png" alt="">
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+
+        <div class="row">
+
+            <div class="image">
+                <img draggable="false" class="tilt" src="./assets/images/alfred.png" alt="">
+            </div>
+            <div class="content">
+                <p>Hello, I'm Alfred Malope, a passionate full stack web developer
+                    with expertise in both front-end and back-end development. I
+                    create visually appealing and interactive user interfaces using HTML, CSS,
+                    and JavaScript. <br><br>
+                    On the back end, I handle server-side programming and database
+                    management, ensuring seamless functionality and data handling. I'm dedicated
+                    to delivering high-quality, efficient, and user-centric web solutions
+                    tailored to meet the unique needs of each project. Let's collaborate
+                    and bring your ideas to life! </p>
+
+                <div class="about-me">
+                    <div class="about-header">
+                        <h3><span><a id="click1" onclick="infoReveal('Badges', this)" class="active">Badges</a></span>
+                        </h3>
+                        <h3><span><a id="click2" onclick="infoReveal('Hobbies', this)">Hobbies</a></span></h3>
+                    </div>
+                    <div class="revealImage" id="Badges">
+                        <div class="inner">
+                            <img src="assets/images/java.png" alt="">
+                            <p>Java 8 OCA</p>
+                        </div>
+
+                        <div class="inner">
+                            <img src="assets/images/SecurityPlus Logo Certified CE.png" alt="">
+                            <p>Security+</p>
+                        </div>
+
+                        <div class="inner">
+                            <img src="assets/images/az900.png" alt="">
+                            <p>AZ-900</p>
+                        </div>
+
+                        <div class="inner">
+                            <img src="assets/images/dp900.png" alt="">
+                            <p>DP-900</p>
+                        </div>
+
+                    </div>
+
+                    <div class="revealImage" id="Hobbies">
+                        <div class="inner">
+                            <img src="assets/images/ChessSet.jpg" alt="">
+                            <p>Chess</p>
+                        </div>
+
+                        <div class="inner">
+                            <img src="assets/images/5-ways-to-incorporate-coding-into-your-classroom.png" alt="">
+                            <p>Coding</p>
+                        </div>
+
+                        <div class="inner">
+                            <img src="assets/images/HkdMToxijoHfz4JwUgfh3G-1200-80.jpg" alt="">
+                            <p>Gaming</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="resumebtn">
+                    <a href="assets/pdf/Alfred Malope.pdf" download class="btn-talk">Resume</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+
+        <h2 class="heading"><span>What</span> I Do</h2>
+
+        <div class="services-class">
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bxl-html5 bx-xlg"></i>
+                </div>
+                <h3>Front-End</h3>
+                <p>As a skilled front-end developer, I specialize in creating engaging and user-friendly interfaces
+                    using HTML, CSS, and JavaScript. With a focus on delivering seamless user experiences, I ensure that
+                    your website or web application stands out and captivates your audience. From responsive designs to
+                    intuitive interactions, I leverage my expertise to bring your digital vision to life.</p>
+            </div>
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bxs-data bx-xlg'></i>
+                </div>
+                <h3>Back-End</h3>
+                <p>With expertise in back-end development, I build robust server-side applications. I handle data
+                    management, implement complex functionality, and ensure seamless integration with databases and
+                    external services. By leveraging my skills in languages like Java, or Python, I create reliable and
+                    scalable solutions to power your website or web application.</p>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bxs-cloud bx-xlg'></i>
+                </div>
+                <h3>Cloud Admin</h3>
+                <p>As a proficient cloud administrator, I specialize in managing and maintaining cloud-based
+                    infrastructures. I ensure seamless deployment, monitoring, and optimization of cloud resources,
+                    maximizing performance and efficiency. From configuring virtual machines to implementing scalable
+                    solutions, I provide robust cloud services tailored to your business needs.</p>
+                <!-- <a href="#" class="read">Read More</a> -->
+            </div>
+
+
+    </section>
+
+
+    <section class="skills" id="skills">
+
+        <h2 class="heading"><i class="fas fa-code"></i><span> Skills</span></h2>
+
+        <div class="container">
+            <div class="row" id="skillsContainer">
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+
+        <h2 class="heading"><span>My </span>Work</h2>
+        <div class="projects-container container grid" id="projects-card">
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <p>&copy; <span id="currentYear"></span> Alfred Malope. All rights reserved.</p>
+            <div class="social-icon">
+                <a href="https://linkedin.com/in/alfred-malope-9911531b5" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100008666409809" target="_blank"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/real_creca" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://github.com/alfred-malope" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="popup-container" id="popup-container">
+        <div class="popup-content">
+            <h2 class="heading">Get in <span>Touch</span></h2>
+            <span onclick="hideContact()" class="close" id="closePopup">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </span>
+            <div class="form">
+                <form id="contactForm" onsubmit="submitForm(); return false;">
+                    <input type="text" placeholder="Your Name" name="name" id="name" autocomplete="on" required>
+                    <input type="email" placeholder="Your Email" name="email" id="email" autocomplete="on" required>
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone" autocomplete="on" required>
+                    <textarea placeholder="Message" name="message" id="message" required></textarea>
+                    <button type="submit" id="sendIcon">Send Message</button>
+                    <button type="submit" id="loadingIcon" style="display: none;"><i class="fas fa-spinner fa-spin"></i>  Sending... </button>
+                    <div id="message-popup">
+                        <span id="popup-message"></span>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+        integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+        integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
