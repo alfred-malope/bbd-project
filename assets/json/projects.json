@@ -17,7 +17,7 @@
 		"title": "Calculator",
 		"photo": "./assets/images/calculator.png",
 		"link": "https://salmon-flower-0adcbd310.4.azurestaticapps.net/",
-		"description": "Web face recognition app using FaceAPI and JavaScript! Detects faces in real-time, draws bounding boxes with age, gender, and emotion labels. Super fun project bringing face recognition to your browser!",
+		"description": "Explore my web face functional calculator designed with HTML, CSS, and JavaScript! 💻🔢 This web tool covers all the essentials, including addition, subtraction, multiplication, and more.",
 		"github": "https://github.com/alfred-malope/calculator_interface"
 	}
 ]
