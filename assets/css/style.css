@@ -3,33 +3,10 @@
 
 
 :root {
-    --header-height: 3rem;
-    --font-semi: 600;
-    /*===== Colors =====*/
-    /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
-    /* HSL color mode */
-    --hue-color: 224;
-    --first-color: hsl(var(--hue-color), 89%, 60%);
-    --second-color: hsl(var(--hue-color), 56%, 12%);
     --black-color: #000;
     --black-color-light: rgb(128, 128, 128);
     --the-orange: hsla(14, 94%, 50%, 0.4);
-    --body-color: rgb(245, 245, 245);
-    --container-color: rgb(231, 229, 229);
     --white-color: rgb(255, 255, 255);
-    /*===== Fonts sizes and family  =====*/
-    --body-font: 'Poppins', sans-serif;
-    --big-font-size: 2rem;
-    --biggest-font-size: 1.6rem;
-    --h1-font-size: 1.6rem;
-    --h2-font-size: 1.25rem;
-    --normal-font-size: .938rem;
-    --smaller-font-size: .75rem;
-    /*===== Margins =====*/
-    --mb-2: 1rem;
-    --mb-4: 2rem;
-    --mb-5: 2.5rem;
-    --mb-6: 3rem;
 }
 
 * {
@@ -253,9 +230,6 @@ header .navbar ul li a:hover {
     }
 }
 
-/* hamburger icon ends */
-
-/* hero section starts*/
 .home {
     position: relative;
     display: grid;
@@ -339,11 +313,6 @@ header .navbar ul li a:hover {
 
 .btn-group {
     margin-top: 1rem;
-    /* position: absolute;
-  line-height: 0; */
-    /* font-weight: 700;
-  font-size: 1.7rem;
-  letter-spacing: 0.1rem; */
 }
 
 .btn-group a {
@@ -480,10 +449,6 @@ header .navbar ul li a:hover {
 
 }
 
-/* hero media queries ends*/
-/* hero section end */
-
-/* about section starts */
 .about {
     background: rgb(255, 255, 255);
 }
@@ -528,27 +493,9 @@ header .navbar ul li a:hover {
     text-transform: none;
 }
 
-.about .row .content .box-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    font-family: "Nunito";
-    font-weight: 600;
-}
-
-.about .row .content .box-container .box p {
-    text-transform: none;
-}
-
-.about .row .content .box-container .box p span {
-    color: rgb(179, 61, 61);
-    ;
-}
 
 .about-header {
     display: flex;
-    /* margin-right: 20px; */
-    /* justify-content: space-between; */
 }
 
 .about-header h3 {
@@ -556,7 +503,6 @@ header .navbar ul li a:hover {
     font-size: 1.57rem;
     color: rgb(14, 36, 49);
     font-weight: 600;
-    /* text-decoration: none; */
     letter-spacing: 0.04rem;
     transition: all 0.2s ease 0s;
 }
@@ -579,7 +525,7 @@ header .navbar ul li a:hover {
     border-radius: 1px 1px;
     width: 0;
     transition: width .4s ease-in-out, border-bottom-color .4s ease-in-out;
-    /* Add transition for width and border */
+  
 }
 
 .about-header a.active::before {
@@ -594,12 +540,9 @@ header .navbar ul li a:hover {
     text-align: center;
     margin: 20px 40px 0 0;
     width: 88px;
-    /* height: 88px; */
 }
 
 .revealImage img{
-    /* margin: 20px 40px 20px 0;
-    width: 88px; */
     height: 88px;
     border-radius: 5px;
 }
@@ -610,8 +553,6 @@ header .navbar ul li a:hover {
 .resumebtn {
     margin-top: 3.2rem;
 }
-
-/* about media queries starts*/
 @media screen and (max-width: 600px) {
     .about .row .image {
         margin-top: 2rem;
@@ -637,11 +578,6 @@ header .navbar ul li a:hover {
     }
 }
 
-/* about media queries ends*/
-/* about section ends */
-
-
-/* Service  */
 
 .services {
     padding-bottom: 100px;
@@ -662,7 +598,6 @@ header .navbar ul li a:hover {
     border-radius: 10px;
     transition: transform 0.3s ease;
     border: 2px solid transparent;
-    /* Added border style */
 }
 
 .s-icons {
@@ -703,12 +638,6 @@ header .navbar ul li a:hover {
 }
 
 
-
-
-
-
-
-
 /* skills section starts */
 .skills {
     min-height: 90vh;
@@ -716,11 +645,7 @@ header .navbar ul li a:hover {
 }
 
 .skills .container {
-    /* color: #fff;
-  border-radius: 1rem; */
     padding: 2rem 0;
-    /* width: 90%;
-  margin: auto; */
     margin-top: 2rem;
 }
 
@@ -824,8 +749,6 @@ form button {
 
 form button:hover {
     background: transparent;
-    /* background-color: #e65c00; */
-    /* transform: scale(1.1); */
     cursor: pointer;
     color: rgb(179, 61, 61);
 }
@@ -961,7 +884,6 @@ footer {
 .projects-image {
     position: relative;
     margin-bottom: 1.5rem;
-    /* Adjust margin as needed */
     width: 100%;
     max-width: 220px;
     height: auto;
@@ -1010,7 +932,7 @@ footer {
 .projects-subtitle {
     position: relative;
     display: inline-block;
-    font-size: var(--smaller-font-size);
+    font-size: .75rem;
     color: var(--black-color-light);
     margin-bottom: .75rem;
 }
@@ -1027,7 +949,7 @@ footer {
 
 .projects-title {
     font-size: 1.4rem;
-    font-weight: var(--font-semi);
+    font-weight: 600;
 }
 
 .projects-link {
@@ -1088,23 +1010,6 @@ footer {
     font-size: 1.03rem;
 }
 
-.projects-button {
-    position: absolute;
-    right: 1rem;
-    bottom: -1.5rem;
-    padding: 1rem;
-
-    background-color: black;
-    /* padding: 1.1rem 1.5rem; */
-    color: white;
-    font-weight: 1.25rem;
-    transition: background-color .4s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 0.5rem;
-    text-decoration: none;
-}
 
 @media screen and (min-width: 576px) {
     .projects-container {
