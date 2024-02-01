@@ -607,7 +607,11 @@ header .navbar ul li a:hover {
         gap: 0;
     }
 }
-
+@media (max-width: 400px) {
+    .revealImage{
+        justify-content: space-around;
+    }
+}
 
 .services {
     padding-bottom: 100px;
