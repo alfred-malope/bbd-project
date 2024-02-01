@@ -230,6 +230,8 @@ header .navbar ul li a:hover {
     }
 }
 
+
+
 .home {
     position: relative;
     display: grid;
@@ -338,6 +340,11 @@ header .navbar ul li a:hover {
     margin-left: 20px;
     padding: 8px 16px;
     cursor: pointer;
+}
+@media (max-width: 300px) {
+    .btn-group a:nth-child(2) {
+        display: none;
+    }
 }
 
 .btn-group a:hover:nth-child(2) {
@@ -448,6 +455,24 @@ header .navbar ul li a:hover {
     }
 
 }
+@media (max-width: 300px) {
+    /*  */
+    /* .home .image{
+        margin-bottom: 50px;
+    } */
+
+    .home .content h2 {
+        font-size: 8.5vw;
+        font-weight: 800;
+        color: #2a3f63;
+    }
+    
+    .home .content h2 span {
+        font-size: 8.5vw;
+        font-weight: 800;
+        color: rgb(179, 61, 61);
+    }
+}
 
 .about {
     background: rgb(255, 255, 255);
@@ -493,6 +518,11 @@ header .navbar ul li a:hover {
     text-transform: none;
 }
 
+@media (max-width: 300px) {
+    .about .row .content p {
+        margin-right: 10%;
+    }
+}
 
 .about-header {
     display: flex;
@@ -637,6 +667,18 @@ header .navbar ul li a:hover {
     border: 2px solid rgb(179, 61, 61);
 }
 
+@media (max-width: 300px) {
+    .box{
+        margin-right: 10%;
+    }
+    .box h3 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #333;
+    }
+}
+
 
 /* skills section starts */
 .skills {
@@ -689,6 +731,8 @@ header .navbar ul li a:hover {
     margin-left: 0.5rem;
 }
 
+
+
 @media screen and (max-width: 600px) {
     .skills .container {
         padding: 0;
@@ -705,6 +749,15 @@ header .navbar ul li a:hover {
     .skills .container {
         margin-top: 5px;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .skills .container .row {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 1rem;
+        padding: 2rem 0.2rem 2rem 0.2rem;
+        gap: 1rem;
     }
 }
 
@@ -893,7 +946,7 @@ footer {
     z-index: 1;
 }
 
-.projects-card {
+/* .projects-card {
     padding: 1.5rem;
     transition: background-color .4s;
     background-color: var(--white-color);
@@ -901,7 +954,7 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
+} */
 
 .projects-content {
     margin-top: 1.5rem;
